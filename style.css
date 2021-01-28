@@ -75,7 +75,43 @@ p
     border-radius: 30px;
     color: #fff;
 }
+.btn:hover
+{
+    background: #563434;
+}
 .header
 {
+    border: 2px solid rgb(38, 0, 255);
     background: radial-gradient(#fff, #ffd6d6)
+}
+.header .row
+{
+    border: 2px solid blueviolet;
+}
+
+.categories
+{
+    border: 2px solid chocolate;
+    margin: 70px 0 ;
+}
+.col-3
+{
+    border: 2px solid crimson;
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-3 img
+{
+    width: 100%;
+}
+.small-container
+{
+    border :2px solid    rgb(38, 0, 255);
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+    
 }
