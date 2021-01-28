@@ -6,27 +6,23 @@
 
 .navbar
 {
-    border: 2px solid black;
     display: flex;
     padding: 20px;
     align-items: center;
 }
 nav
 {
-    border:2px solid brown;
     text-align: right;
     flex: 1;
 }
 nav ul
 {
-    padding: 2px solid blue;
     list-style-type: none;
     display: inline-block;
 
 
 }
 nav ul li{
-    border: 2px solid steelblue;
     display: inline-block;
     margin-right: 20px;
 }
@@ -41,9 +37,45 @@ p
 }
 .container
 {
-    border: 2px solid navy;
     margin: auto;
     max-width: 1300px;
     padding-left: 25px;
     padding-right: 25px;
+}
+.row
+{
+    display: flex; /**1**/
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.col-2
+{
+    flex-basis: 50%;/**2**/
+    min-width: 300px;
+}
+.col-2 img
+{
+    max-width: 100%;/**3**/
+    padding: 50px 0;
+}
+.col-2 h1
+{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px;
+}
+.btn
+{
+    background: #ff523b;
+    display: inline-block;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    color: #fff;
+}
+.header
+{
+    background: radial-gradient(#fff, #ffd6d6)
 }
