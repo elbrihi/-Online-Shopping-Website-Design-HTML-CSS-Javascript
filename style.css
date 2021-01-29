@@ -166,3 +166,15 @@ h4
 {
     transform: translateY(-5px)
 }
+
+.offer
+{
+    border: 2px solid rgb(38, 0, 255);
+    background: radial-gradient(#fff, #ffd6d6);
+    margin: 20px;
+    padding: 0 ;
+}
+small
+{
+    color:#555
+}
