@@ -214,3 +214,29 @@ small
     color: #555;
     font-size: 16px;
 }
+
+/*-------------------------  Brands  ----------------------*/
+
+.brands
+{
+    border: 2px solid black;
+    margin: 100 auto;
+}
+.col-5
+{
+    border:2px solid blueviolet;
+    width: 160px;
+}
+.col-5 img
+{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.col-5 img:hover
+{
+    filter: grayscale(0);
+}
+
+
+
