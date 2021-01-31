@@ -313,6 +313,47 @@ ul
 }
 
 /************************** media query for menu *******************************/
+/**** Products ****/
+
+.row-2
+{
+    border: 2px solid rgb(9, 228, 64);
+    justify-content: space-between;
+    margin: 100px auto 20px;
+}
+select
+{
+    border: 1px solid #ff523b;
+    padding: 5px;
+}
+select:focus
+{
+    outline: none;
+}
+
+.page-btn
+{
+    margin: 0 auto 80px;
+}
+
+.page-btn span
+{
+    display: inline-block;
+    border: 1px solid #ff523b;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    margin: auto;
+}
+.page-btn span:hover
+{
+    background: #ff523b;
+    color: #fff;
+}
+
 
 @media only screen and (max-width: 800px)
 {
