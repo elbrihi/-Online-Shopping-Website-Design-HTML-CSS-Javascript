@@ -355,6 +355,78 @@ select:focus
 }
 
 
+/*********************** Single Products Details  *************************/
+
+.singler-product
+{
+    border: 2px solid black;
+    margin-top: 50px;;
+    margin-bottom: 50px;;
+
+}
+
+.singler-product .col-2 img
+{
+    padding: 0px;;
+}
+.singler-product .col-2
+{
+    padding: 20px;
+}
+.singler-product h4
+{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: blod;
+}
+.singler-product select
+{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+
+.singler-product input
+{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ff523b;
+    padding: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+}
+input:focus
+{
+    outline: none
+}
+
+.fa-indent{
+    margin-left: 8px;
+    width: 15px;
+    height: 15px;
+    color: #ff523b;
+}
+.small-img-row
+{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col
+{
+    margin-top: 5px;
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 800px)
 {
    nav ul{
