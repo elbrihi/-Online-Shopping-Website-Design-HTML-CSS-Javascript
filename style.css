@@ -112,6 +112,7 @@ p
     padding-left: 20px;
     padding-right: 20px;
     
+    
 }
 
 .col-4
@@ -421,8 +422,76 @@ input:focus
 }
 
 
+/************** Cart Items  *********************/
 
+.cart-page
+{
+    margin: 80px auto;
+}
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart-info
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+th
+{
+    border: 2px solid black;
+    width: 100px ;
+    text-align: left;
+    padding: 5px;
+    background: #ff523b;
+    color:#fff;
+    font-weight: normal;
+}
 
+td
+{
+    padding: 10px 5px;
+}
+td input
+{
+    border: 1px solid #ff523b;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+td a
+{
+    color: #ff523b;
+    font-size: 12px;
+}
+td img
+{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.total-price
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.total-price  table
+{
+    border-top: 3px solid #ff523b;
+    width: 100%;
+    max-width: 350px;
+}
+td:last-child
+{
+    text-align: right;
+}
+th:last-child
+{
+    text-align:right;
+}
 
 
 
